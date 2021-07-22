@@ -74,7 +74,7 @@ stages:
                   displayName: "Update GitHub release"
                   inputs:
                     gitHubConnection: "github.com_offbeatful"
-                    repositoryName: "eslint-config-mocoding"
+                    repositoryName: "mocoding-software/eslint-config-mocoding"
                     action: edit
                     tag: "v$(Build.BuildNumber)"
                     assets: "$(Pipeline.Workspace)/**/*.tgz"
