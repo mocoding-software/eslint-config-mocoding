@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-mocoding",
+  "version": "1.0.0",
+  "description": "Shared eslint and prettier configuration",
+  "repository": "https://github.com/mocoding-software/eslint-config-mocoding/tree/master/packages/eslint-config",
+  "bugs": {
+    "url": "https://github.com/mocoding-software/eslint-config-mocoding/issues",
+    "email": "social@mocoding.com"
+  },
+  "homepage": "https://github.com/mocoding-software/eslint-config-mocoding#readme",
+  "author": "MOCODING, LLC",
+  "license": "MIT",
+  "main": "eslint.js",
+  "files": [
+    "eslint.js",
+    "prettier.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-only-warn": "^1.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint": "^7.31.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
